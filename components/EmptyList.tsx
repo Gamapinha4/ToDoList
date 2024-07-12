@@ -20,7 +20,7 @@ const EmptyListContainer = styled.div`
 const TextTitleStyle = styled.text`
     color: var(--gray-300);
     text-align: center;
-    font-family: Inter;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -28,7 +28,7 @@ const TextTitleStyle = styled.text`
 `
 const SubTextTitleStyle = styled.text`
     color: var(--gray-300);
-    font-family: Inter;
+    font-family: inherit;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
