@@ -41,7 +41,7 @@ const InputStyled = styled.input`
   border-radius: 8px;
 
   color: var(--Gray-300, #808080);
-  font-family: Inter;
+  font-family: inherit;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -104,7 +104,7 @@ const TextTarefas = styled.text`
 
 const TextConcluidas = styled.text`
     color: var(--purple-color);
-    font-family: Inter;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -164,7 +164,7 @@ const ToDoList = styled.div`
 
 const ToDoListText = styled.text`   
     color: var(--gray-100);
-    font-family: Inter;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -175,7 +175,7 @@ const ToDoListText = styled.text`
 
 const ToDoListTextDashed = styled.text`   
     color: var(--gray-300);
-    font-family: Inter;
+    font-family: inherit;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
