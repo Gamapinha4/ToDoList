@@ -203,7 +203,7 @@ export default function Home() {
   const [input, setInput] = useState<any>('')
 
   function createItem(item : string) {
-    if (list.includes(item) && item.trim().length == 0) {
+    if (list.includes(item) || item.trim().length == 0) {
       return null;
     }
 
